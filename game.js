@@ -15,7 +15,7 @@ var levels =
          ['tile24', 'tile123', 'tile123', 'tile34'],
          ['tile12', 'tile23', 'tile23', 'tile13']],
 
-        [['j1', 'j2', 'j3'], ['j4', 'j5', 'j6'], ['j7', 'j8', 'j9'], ['j10', 'j11', 'j12']],
+        // [['j1', 'j2', 'j3'], ['j4', 'j5', 'j6'], ['j7', 'j8', 'j9'], ['j10', 'j11', 'j12']],
 
         [['tile24', 'tile234', 'tile234', 'tile234', 'tile34'],
          ['tile124', 'tile1234', 'tile1234', 'tile1234', 'tile134'],
@@ -114,18 +114,18 @@ class GameScene extends Phaser.Scene {
         this.load.image('tile134', 'assets/tile134.png');
         this.load.image('tile234', 'assets/tile234.png');
         this.load.image('tile1234', 'assets/tile1234.png');
-        this.load.image('j1', 'assets/Joconde1.jpg');
-        this.load.image('j2', 'assets/Joconde2.jpg');
-        this.load.image('j3', 'assets/Joconde3.jpg');
-        this.load.image('j4', 'assets/Joconde4.jpg');
-        this.load.image('j5', 'assets/Joconde5.jpg');
-        this.load.image('j6', 'assets/Joconde6.jpg');
-        this.load.image('j7', 'assets/Joconde7.jpg');
-        this.load.image('j8', 'assets/Joconde8.jpg');
-        this.load.image('j9', 'assets/Joconde9.jpg');
-        this.load.image('j10', 'assets/Joconde10.jpg');
-        this.load.image('j11', 'assets/Joconde11.jpg');
-        this.load.image('j12', 'assets/Joconde12.jpg');
+        // this.load.image('j1', 'assets/Joconde1.jpg');
+        // this.load.image('j2', 'assets/Joconde2.jpg');
+        // this.load.image('j3', 'assets/Joconde3.jpg');
+        // this.load.image('j4', 'assets/Joconde4.jpg');
+        // this.load.image('j5', 'assets/Joconde5.jpg');
+        // this.load.image('j6', 'assets/Joconde6.jpg');
+        // this.load.image('j7', 'assets/Joconde7.jpg');
+        // this.load.image('j8', 'assets/Joconde8.jpg');
+        // this.load.image('j9', 'assets/Joconde9.jpg');
+        // this.load.image('j10', 'assets/Joconde10.jpg');
+        // this.load.image('j11', 'assets/Joconde11.jpg');
+        // this.load.image('j12', 'assets/Joconde12.jpg');
 
         this.load.image('spark', 'assets/spark.png');
         this.load.image('spark2', 'assets/spark2.png');
